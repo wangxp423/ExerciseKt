@@ -11,7 +11,7 @@ package com.xp.kotlin.part1
 fun strLen(s: String?) = if (s != null) s.length else 0
 
 fun strLen1(s: String?) = s?.length
-fun strLen2(s: String?) = s ?: 0
+fun strLen2(s: String?) = s?.length ?: 0
 fun foo(s: String?) {
     val t: String = s ?: ""
     println("zifu:" + t)
